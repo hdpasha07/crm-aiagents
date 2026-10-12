@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.Python
+build/
+dist/
+venv/
+env/
+ENV/
+.venv/
+aiagent/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Local databases, vector stores, and customer/runtime data
+*.db
+*.sqlite
+*.sqlite3
+chroma_data/
+chroma_db/
+.chroma/
+data/
+logs/
+memory/
+Agent/memory/*.json
+
+# Test and quality tool output
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.hypothesis/
+.mypy_cache/
+.ruff_cache/
+
+# JavaScript dependencies and generated builds
+node_modules/
+Frontend/**/node_modules/
+Frontend/**/dist/
+Frontend/**/build/
+Frontend/**/.env
+Frontend/**/.env.*
+!Frontend/**/.env.example
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Editor and OS files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db

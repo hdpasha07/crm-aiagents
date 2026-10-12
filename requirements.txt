@@ -1,0 +1,34 @@
+# ==============================================================================
+# Enterprise AI Customer Support Agent - Python Backend Dependencies
+# ==============================================================================
+
+# Web Framework & ASGI Server
+fastapi>=0.115.0            # High-performance web framework for complaint ingestion and support API endpoints
+uvicorn>=0.30.0             # Lightning-fast ASGI production web server for FastAPI services
+httpx>=0.27.0               # Async HTTP client required by FastAPI TestClient and remote services
+
+# LangGraph & Agent Orchestration
+langgraph>=0.2.0            # Stateful multi-turn graph orchestration, checkpointer, and agent tool routing
+langchain>=0.3.0            # LLM application framework, chains, and prompt template management
+langchain-core>=0.3.0       # Base abstractions, standard chat message schemas, and tool decorators
+langchain-google-genai>=2.0 # LangChain connector for Google Gemini models and chat completions
+google-genai>=1.0.0         # Official Google GenAI SDK for Gemini LLM generation and embeddings
+
+# Vector Store & Document Ingestion
+chromadb>=0.5.0             # Local persistent vector database for RAG policy retrieval and episodic workarounds
+pypdf>=4.0.0                # PDF text extraction and document parsing engine for knowledge base ingestion
+
+# Security Middleware & Guardrails
+presidio-analyzer>=2.2.0    # Microsoft Presidio PII entity detection engine (credit cards, SSNs, phone numbers)
+presidio-anonymizer>=2.2.0  # Microsoft Presidio PII anonymization and placeholder redaction engine
+spacy>=3.7.0                # NLP pipeline and Named Entity Recognition models powering Microsoft Presidio
+
+# Data Modeling & Persistence
+pydantic>=2.7.0             # Data validation and settings management using modern Python type annotations
+pydantic-settings>=2.0.0    # Hierarchical configuration and environment variable loading for Pydantic models
+sqlalchemy>=2.0.0           # Object-relational mapping (ORM) for SQLite ticket and complaint storage
+python-dotenv>=1.0.0        # Secure environment configuration loader (.env file support)
+
+# Testing & Quality Assurance
+pytest>=8.0.0               # Test runner and fixture framework for backend unit and integration testing
+pytest-mock>=3.14.0         # Pytest fixture plugin for mocking LLM invocations and agent handoff testing
