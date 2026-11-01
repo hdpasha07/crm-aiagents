@@ -1,0 +1,14 @@
+{
+    "user_123": {
+        "name": "Alice",
+        "tier": "Enterprise",
+        "lifetime_value": 15000,
+        "recent_issue": "Server downtime on cluster B"
+    },
+    "user_456": {
+        "name": "Bob",
+        "tier": "Standard",
+        "lifetime_value": 150,
+        "recent_issue": "Password reset email not arriving"
+    }
+}

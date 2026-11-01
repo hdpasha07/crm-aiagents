@@ -1,0 +1,31 @@
+{
+  "priority_rules": {
+    "high": [
+      "double payment",
+      "charged twice",
+      "fraud",
+      "legal",
+      "chargeback",
+      "order not received"
+    ],
+    "medium": ["delivery delay", "wrong product", "damaged"],
+    "low": ["feedback", "feature request", "general query"]
+  },
+
+  "auto_resolution_allowed": {
+    "low": true,
+    "medium": true,
+    "high": false
+  },
+
+  "refund_policy": {
+    "allowed_within_days": 7,
+    "auto_refund_allowed": false
+  },
+
+  "faq_responses": {
+    "payment": "We are reviewing your payment issue. Please share your transaction reference ID. Our team will update you within 24 hours.",
+    "delivery": "We apologize for the delay. Please check your tracking link for the latest update.",
+    "feedback": "Thank you for your feedback. We appreciate you taking the time to help us improve."
+  }
+}

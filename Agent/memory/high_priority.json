@@ -1,0 +1,58 @@
+[
+  {
+    "complaint_text": "I ordered some books and I got some magazines which should not be readed by children and it has mentally disturbed my children . So I am going to sue the firm for mental harrassment.",
+    "category": "delivery_issue",
+    "sentiment": "angry",
+    "priority": "high",
+    "priority_reason": "Delivery issue with angry sentiment",
+    "response_email": "Dear valued customer, we are deeply sorry to hear that you received incorrect and disturbing items in your order, which has caused distress to your children. We understand the severity of the situation and want to assure you that we are taking immediate action to investigate this matter. Please accept our sincerest apologies for the harm caused. We would like to resolve this issue as quickly as possible and prevent such incidents in the future. We will be in touch with you shortly to discuss a suitable resolution and provide a prepaid return shipping label for the incorrect items. If you have any further concerns or would like to speak with a representative, please do not hesitate to contact us. Your well-being and satisfaction are our top priority.",
+    "suggestions": [
+      "Escalate to senior management",
+      "Manual review of order and delivery process",
+      "Offer counseling services to affected children",
+      "Prepare for potential lawsuit",
+      "Conduct internal investigation to prevent similar incidents"
+    ],
+    "reevaluated_priority": "high",
+    "escalation_reason": "Customer is threatening to sue for mental harassment and the issue has caused significant distress to the children, requiring immediate attention and resolution",
+    "escalation_required": true
+  },
+  {
+    "complaint_text": "Hi my name is Shrey Patel and I ordered an iPhone from your store seven days ago and I already made full prepaid payment but your application is showing the order status as delivered even though I never received the product this is my second complaint because I already contacted your support team two days ago and they promised to check the issue but I have not received any response or update yet this situation is extremely frustrating and unacceptable if this issue is not resolved immediately or my money is not refunded I will be forced to file a formal consumer complaint and take legal action against your company",
+    "category": "delivery_issue",
+    "sentiment": "angry",
+    "priority": "high",
+    "priority_reason": "Angry sentiment with delivery issue and payment involved",
+    "response_email": "Dear Shrey Patel, we apologize for the extreme frustration and inconvenience caused by the missing iPhone order and the lack of response from our support team. We understand that you were promised an update two days ago, and we fell short of our commitment. We are treating this matter with the utmost urgency and importance. We are immediately investigating this incident, and we will provide a resolution as soon as possible. If our investigation confirms that the order was not delivered, we will either expedite the delivery or process a full refund, whichever you prefer. Please allow us to make things right, and we appreciate your patience and cooperation in this matter. We will provide a detailed update within the next 24 hours. Thank you for bringing this to our attention, and we look forward to resolving this issue promptly.",
+    "suggestions": [
+      "Escalate to delivery team",
+      "Manual review of order status",
+      "Investigate possible fraud",
+      "Refund or replace order",
+      "Provide update to customer",
+      "Escalate to billing team"
+    ],
+    "reevaluated_priority": "high",
+    "escalation_reason": "Issue remains unresolved, customer has already waited for 7 days, and there was a lack of response from the support team, indicating a high level of frustration and potential for further action",
+    "escalation_required": true
+  },
+  {
+    "complaint_text": "Hi my name is Shrey Patel and I ordered an iPhone from your store seven days ago and I already made full prepaid payment but your application is showing the order status as delivered even though I never received the product this is my second complaint because I already contacted your support team two days ago and they promised to check the issue but I have not received any response or update yet this situation is extremely frustrating and unacceptable if this issue is not resolved immediately or my money is not refunded I will be forced to file a formal consumer complaint and take legal action against your company",
+    "category": "delivery_issue",
+    "sentiment": "angry",
+    "priority": "high",
+    "priority_reason": "Angry sentiment with delivery issue and payment involved",
+    "response_email": "Dear Shrey Patel, we apologize for the extreme frustration and inconvenience caused by the missing iPhone order and the lack of update on your previous complaint. We understand that you were promised a resolution two days ago, and we fell short of our commitment. We are treating this matter with the utmost urgency and importance. Our team is immediately looking into this issue to locate your order and resolve the discrepancy in the delivery status. You will receive a personalized update within the next 24 hours. If we are unable to locate your order, we will process a full refund. Please accept our sincerest apologies for the distress this situation has caused. Your satisfaction is our top priority, and we appreciate your patience and cooperation in this matter. We are committed to making things right.",
+    "suggestions": [
+      "Escalate to delivery team",
+      "Manual review of order status",
+      "Investigate possible fraud",
+      "Refund or replace order",
+      "Respond to customer with update and apology",
+      "Escalate to billing team"
+    ],
+    "reevaluated_priority": "high",
+    "escalation_reason": "Issue remains unresolved, customer has already waited for 7 days, and there was a lack of response to the initial complaint, which has heightened their frustration and led to a threat of legal action",
+    "escalation_required": true
+  }
+]
